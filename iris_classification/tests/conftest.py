@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture
 def requests():
     return {
@@ -9,7 +8,6 @@ def requests():
             [6.1, 2.8, 4.7, 1.2]
         ]
     }
-
 
 @pytest.fixture
 def response():
