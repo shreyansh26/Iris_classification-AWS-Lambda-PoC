@@ -10,7 +10,6 @@ def requests():
         ]
     }
 
-
 @pytest.fixture
 def response():
     return ['virginica', 'versicolor']
