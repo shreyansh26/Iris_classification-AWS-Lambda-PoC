@@ -22,8 +22,6 @@ class Model:
         print("Model score: ", ada.score(X_train, y_train))
         print("Test Accuracy: ", ada.score(X_test, y_test))
 
-
         pd.concat([pd.DataFrame(X_test), pd.DataFrame(y_test, columns=['4'])], axis=1).to_csv('test_data.csv', index=False)
-        # print(pd.DataFrame(y_test, columns=['4']))
 
         pickle.dump(model, open("../models/model.pkl", "wb"))
