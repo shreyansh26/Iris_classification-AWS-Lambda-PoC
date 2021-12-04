@@ -35,5 +35,5 @@ jobs:
         secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: us-east-1
         image: iris_classification:latest
-    # - name: Update lambda with image
-    #   run: aws lambda update-function-code --function-name  iris_classification --image-uri 968911158010.dkr.ecr.us-east-1.amazonaws.com/classification:latest
+    - name: Update lambda with image
+      run: aws lambda update-function-code --function-name iris_classification --image-uri 863244415814.dkr.ecr.us-east-1.amazonaws.com/iris_classification:latest
