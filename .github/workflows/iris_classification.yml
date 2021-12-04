@@ -20,7 +20,7 @@ jobs:
         ref: ${{ github.ref }}
     - name: Build container
       run: |
-        docker build --tag classification:latest .
+        docker build --tag iris_classification:latest .
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
