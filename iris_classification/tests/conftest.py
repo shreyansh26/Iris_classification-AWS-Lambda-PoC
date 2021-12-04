@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture
 def requests():
     return {
