@@ -1,2 +1,0 @@
-scikit-learn==1.0.1
-pandas==1.2.5
