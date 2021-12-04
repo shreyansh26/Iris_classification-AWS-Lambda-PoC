@@ -10,13 +10,6 @@ class Classifier:
         model.train_and_save()
 
     def load_and_test(self, data):
-        # data = {
-        #         "data": [
-        #             [5.5, 4.2, 1.4, 0.2],
-        #             [6.1, 2.8, 4.7, 1.2]
-        #         ]
-        #     }
-        
         iris_types = {
                 0: 'setosa',
                 1: 'versicolor',
