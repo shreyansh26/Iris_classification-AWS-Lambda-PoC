@@ -183,8 +183,3 @@ If required, you can also restrict any pushes to the master branch from Github (
 
 
 ### AND WE ARE DONE!
-
-Hope this gives you a good idea on how to deploy ML models on AWS Lambda. Obviously, there can be extensions which can be done. 
-
-* Github Actions could be used to automate the whole deployment process. 
-* Google App Engine could be used to deploy and host the Streamlit app.
