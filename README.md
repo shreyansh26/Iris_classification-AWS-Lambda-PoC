@@ -7,17 +7,17 @@ The Iris dataset is a small dataset which contains attributes of the flower - Se
 The goal of the task is to classify based on these dimensions, the type of the Iris, which in the dataset is among three classes - Setosa, Versicolour and Virginica.
 
 I also detail the steps required to package the model, push to Amazon ECR, deploy the model on AWS Lambda, expose the model using the Amazon API Gateway and finally automate the entire process using Github Actions.
-And finally, the repository also contains the code to run a Streamlit app with the model deployed on AWS.
+The repository also contains the code to run a Streamlit app with the model deployed on AWS.
 
 ## Package Requirements
-* A Amazon Web Services account (I intentionally use a simple ML model to deploy as it remains in the AWS Free tier constraints across all the services I mention above. Larger models will require more storage and hence could be chargeable.)
+* An Amazon Web Services account (I intentionally use a simple ML model to deploy as it remains in the AWS Free tier constraints across all the services I mention above. Larger models will require more storage and hence could be chargeable.)
 * Python 3.6+
 * A simple 
 `pip install -r requirements.txt` from the [iris_classification](iris_classification) directory will install the other Python packages required.
 
 
 ## Steps to follow
-In this PoC, I will be training and deploying a simple ML model. If you follow this tutorial, deploying models should be fairly easy as well. (I had to scratch my head a lot though :sweat_smile:)
+In this PoC, I will be training and deploying a simple ML model. If you follow this tutorial, deploying complex models should be fairly easy as well. (I had to scratch my head a lot though :sweat_smile:)
 
 
 ### 1. Training and Deploying the model locally
